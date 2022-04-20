@@ -194,8 +194,23 @@ body {
 
 .banner .images a img {
     width: 100%;
-    height: 45vh;
+    height: 27vh;
     object-fit: fill;
+    margin-bottom: 20px;
+}
+
+.branch {
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+    padding: 0 20px;
+}
+
+.desc {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 20px;
     margin-bottom: 20px;
 }
 
@@ -213,10 +228,11 @@ body {
     background: var(--black);
     color: var(--primary);
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     margin-bottom: 20px;
     border-radius: 50px;
     font-weight: 700;
+    font-size: 22px;
 }
 
 .card {
@@ -265,13 +281,9 @@ body {
         bottom: -85px;
     }
 
-    .banner {
-        margin-bottom: -120px;
-    }
-
     .banner .images a img {
         height: 55vh;
-        margin-bottom: 150px;
+        margin-bottom: 20px;
     }
 
     .menu {
@@ -292,8 +304,12 @@ body {
     }
 
     .banner .images a img {
-        height: 65vh;
-        margin-bottom: 150px;
+        height: 35vh;
+        margin-bottom: 20px;
+    }
+
+    .title {
+        font-size: 34px;
     }
 
     .menu {
@@ -309,6 +325,7 @@ body {
 @media (min-width: 992px) {
     .banner .images a img {
         height: 75vh;
+        margin-bottom: 40px;
     }
 
     .menu {
@@ -349,8 +366,9 @@ body {
 
     .banner .images a img {
         width: 100%;
-        height: 85vh;
+        height: 75vh;
         object-fit: fill;
+        margin-bottom: 35px;
     }
 
     .menu {
@@ -366,7 +384,7 @@ body {
 @media (min-width: 1400px) {
     .banner .images a img {
         width: 100%;
-        height: 90vh;
+        height: 75vh;
         object-fit: fill;
     }
 
